@@ -2,10 +2,59 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>はじめてのサイト</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>白状</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>こんにちは！</h1>
-  <p>はじめてのホームページです。</p>
+
+  <!-- ヘッダー・ナビゲーション -->
+  <header class="site-header">
+    <h1 class="site-title"><a href="index.html">白状</a></h1>
+    <nav class="global-nav">
+      <ul>
+        <li><a href="#">TOP</a></li>
+        <li><a href="#">main</a></li>
+        <li><a href="#">企画・連作等</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="main-content">
+    
+    <!-- 記事・お知らせエリア -->
+    <article class="post-entry">
+      <h2 class="post-title">申し上げますどうかこれきりと願います</h2>
+      <time class="post-date" datetime="2024-02-25T16:29">2024.02.25 16:29</time>
+    </article>
+
+    <!-- サイト説明・プロフィールエリア -->
+    <section class="about-section">
+      <p>オリジナルテキストサイトです。</p>
+      <p>作成：夜中</p>
+
+      <!-- 外部リンク（URLは実際のものに変更してください） -->
+      <ul class="social-links">
+        <li><a href="https://x.com" target="_blank" rel="noopener noreferrer">X</a></li>
+        <li><a href="https://wavebox.me" target="_blank" rel="noopener noreferrer">Wavebox</a></li>
+        <li><a href="https://privatter.me" target="_blank" rel="noopener noreferrer">Privatter+</a></li>
+      </ul>
+    </section>
+
+    <!-- カテゴリ・タグエリア -->
+    <aside class="category-section">
+      <ul>
+        <li><a href="#">top (1)</a></li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <p>Copyright &copy; 2026 白状.</p>
+  </footer>
+
 </body>
 </html>
