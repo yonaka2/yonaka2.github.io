@@ -1,0 +1,106 @@
+/* 全体の基本設定 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif; /* テキストサイトらしい明朝体 */
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.8;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ヘッダー */
+.site-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  margin-bottom: 20px;
+}
+
+.global-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-size: 0.95rem;
+}
+
+/* メインコンテンツ */
+.main-content {
+  margin-bottom: 80px;
+}
+
+.post-entry {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #888888;
+}
+
+/* サイト説明・リンク */
+.about-section {
+  margin-bottom: 50px;
+  font-size: 0.95rem;
+}
+
+.about-section p {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 24px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 2px;
+}
+
+/* カテゴリ */
+.category-section {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+/* フッター */
+.site-footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999999;
+}
