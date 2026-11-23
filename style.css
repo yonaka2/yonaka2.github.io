@@ -36,11 +36,11 @@ ul {
 }
 
 .site-title {
+  color: #ff0000;
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.15em;
   margin-bottom: 20px;
-  color: #ff0000;
 }
 
 .global-nav ul {
