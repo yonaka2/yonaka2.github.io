@@ -36,7 +36,7 @@ ul {
 }
 
 .site-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: normal;
   letter-spacing: 0.15em;
   margin-bottom: 20px;
@@ -107,6 +107,5 @@ ul {
 /* サイトタイトル「白状」を赤くする */
 .site-title a {
   font-weight: bold;
-  font-size: 100px;
   color: #b83232;
 }
