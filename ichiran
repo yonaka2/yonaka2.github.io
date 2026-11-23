@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>白状</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ヘッダー・ナビゲーション -->
+  <header class="site-header">
+    <h1 class="site-title">白状</h1>
+    <nav class="global-nav">
+      <ul>
+        <li><a href="#">TOP</a></li>
+        <li><a href="#">main</a></li>
+        <li><a href="#">企画・連作等</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="main-content">
+    
+    <br><br>
+    <!-- 記事・お知らせエリア -->
+    <article class="post-entry">
+      <h2 class="post-title"><p align="center">申し上げます　どうかこれきりと願います</p></h2>
+    </article>
+
+    <!-- カテゴリ・タグエリア -->
+    <aside class="category-section">
+      <ul>
+        <li><a href="#">top (1)</a></li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <p>Copyright &copy; 2026 白状.</p>
+  </footer>
+
+</body>
+</html>
