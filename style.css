@@ -106,5 +106,6 @@ ul {
 }
 /* サイトタイトル「白状」を赤くする */
 .site-title a {
+  font-size: 24px;
   color: #b83232;
 }
