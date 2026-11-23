@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif; /* テキストサイトらしい明朝体 */
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif; /* テキストサイトらしい明朝体 */
   color: #333333;
   background-color: #ffffff;
   line-height: 1.8;
